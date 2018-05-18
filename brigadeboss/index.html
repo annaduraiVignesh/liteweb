@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>
+        Brigade Boss
+    </title>
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/underscore-min.js"></script>
+    <script type="text/javascript" src="/js/backbone-min.js"></script>
+    
+    <script type="text/javascript" src="/js/Chart.js"></script>
+    <script type="text/javascript" src="/js/Chart.min.js"></script>
+    <script type="text/javascript" src="/js/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="/js/Chart.bundle.js"></script>
+    
+    <script type="text/javascript" src="/js/main.js"></script>
+     
+    
+    <link rel="stylesheet" href="/css/Animate.css">
+    <link rel="stylesheet" href="/css/fontawesome-all.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
+    
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="body">
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="/home.html"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+    
+    <table>
+        <tr>         
+    
+                <div class="card animated flash">
+                    <h2 style="text-align:center">User Profile Card</h2>
+                        <img src="/img/test.jpeg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                                <p class="title">CEO & Founder, Example</p>
+                                <p>Harvard University</p>
+                                <div style="margin: 24px 0;">
+                                <a href="http://www.google.com"><i class="fa fa-dribbble"></i></a> 
+                                <a href="#"><i class="fa fa-twitter"></i></a>  
+                                <a href="#"><i class="fa fa-linkedin"></i></a>  
+                                <a href="#"><i class="fa fa-facebook"></i></a> 
+                                </div>
+                                <p><button>Contact</button></p>
+                </div>
+            
+            
+            
+                <div class="card2">
+                    <button type="submit" class="btn-success animated  flash" onclick="test2()">Click me</button>
+                    <p id="MyID1">This is for test</p>
+                </div>
+                <div class="card3">
+                    <form>
+                        <input type="text" id="txt" name="pos" />
+            
+                    <div>
+                        <div>
+                           <strong>A</strong> <input type="text" id="val1" name="value1" label="A"/>
+                        </div>
+                        <div>
+                           <strong>B</strong> <input type="text" id="val2" name="value2" label="B"/>
+                        </div>
+                    <div>
+                        <button type="button" class="btn-success animated  pulse" onclick="calc_add()">Calculate</button>
+                    </div>
+                </div>
+                    <input type="text" id="val3" name="value3" />
+                    <canvas id="myChart" width="1000px" height="900px"></canvas>
+                    <button type="button" class="" id="check_but_id" onclick="chart_check()"
+                            >CHART</button>
+                    </form>
+            </div>
+            
+        </tr>
+    </table>
+<span >
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <span>London is the capital city of England.</span>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</span>        
+    
+</body>
+
+</html>
